@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VogueNest | Premium Fashion Store</title>
+    <link rel="icon" href="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="top-nav">
+        <div class="nav-container">
+            <div class="nav-links">
+                <a href="#"><i class="fas fa-home"></i> Home</a>
+                <a href="#"><i class="fas fa-user"></i> Account</a>
+                <a href="#"><i class="fas fa-phone"></i> Contact</a>
+            </div>
+            <div class="nav-social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Header with Categories -->
+    <header>
+        <div class="logo">
+            <img src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" alt="VogueNest Logo" class="logo-img">
+            VogueNest
+        </div>
+        <nav class="categories">
+            <a href="#" class="category-btn active" data-category="all">All</a>
+            <a href="#" class="category-btn" data-category="shirts">Shirts</a>
+            <a href="#" class="category-btn" data-category="pants">Pants</a>
+            <a href="#" class="category-btn" data-category="shoes">Shoes</a>
+            <a href="#" class="category-btn" data-category="bags">Tote Bags</a>
+            <a href="#" class="category-btn" data-category="jewelry">Jewelry</a>
+        </nav>
+        <div class="cart-icon">
+            🛒 <span class="cart-count">0</span>
+        </div>
+    </header>
+    
+    <!-- Products Section -->
+    <div class="products-container">
+        <div class="products-grid" id="products">
+            <!-- Products will be inserted here by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <h2>What Our Customers Say</h2>
+        <div class="reviews-container">
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>"The quality exceeded my expectations. Perfect fit and super comfortable!"</p>
+                <span>- Sarah J.</span>
+            </div>
+            <div class="review-card">
+                <div class="stars">★★★★★</div>
+                <p>"Fast shipping and excellent customer service. Will definitely order again."</p>
+                <span>- Michael T.</span>
+            </div>
+            <div class="review-card">
+                <div class="stars">★★★★☆</div>
+                <p>"Beautiful designs, though the sizing runs slightly small."</p>
+                <span>- Emily R.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer class="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 456 Fashion Ave, Style District</p>
+                <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                <p><i class="fas fa-envelope"></i> hello@voguenest.com</p>
+                <p><i class="fas fa-clock"></i> Mon-Fri: 9AM-6PM</p>
+            </div>
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <a href="#">About Us</a>
+                <a href="#">Shipping Policy</a>
+                <a href="#">Returns & Exchanges</a>
+                <a href="#">Size Guide</a>
+            </div>
+            <div class="newsletter">
+                <h3>Join Our Newsletter</h3>
+                <p>Get 15% off your first order!</p>
+                <input type="email" placeholder="Your email address">
+                <button>Subscribe</button>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2023 VogueNest. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
